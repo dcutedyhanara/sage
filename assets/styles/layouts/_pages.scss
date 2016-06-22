@@ -1,8 +1,10 @@
 .con-header{
 	background-color: #f56f6c;
-	height:800px;
+	height:730px;
 	padding: 23px 0px 30px 40px;
+	width: 100%;
 	.mebanner{
+		width: 100%;
 		.dayanlogo{
 			font-family: Tw Cen MT Condensed;
 			display: inline-block;
@@ -18,17 +20,65 @@
 		}
 		.banner-title {
 			height:600px;
+			color:#f17d7b;
 			margin:0 auto;
-			color:white;
-			width: 562px;
+			width: 43%;
+			background-image:url("data:image/svg+xml;utf8,\
+			<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>\
+			<text x='38' y='475' font-size='650' color='white' font-family='Verdana' fill='#f17d7b'>D</text>\
+			</svg>");
 			.web-intro {
-
+				padding-top: 102px;
 				.introduction{
 					font-family: Vladimir Script;
-					font-size: 107px ;
+					font-size: 107px;
 					color:#293e53;
+				}
+				.introskills {
+					font-family:Verdana;
+					color:white;
+					font-size: 27px;
+					margin:0 auto;
+
+					.asterisk {
+						border-radius: 50%;
+						display:inline-block;
+						height: 20px;
+						background-color:#293e53;
+					}
 				}
 			}
 		}
+	}
+
+}
+.body-content{
+	background-color: #f7f7f9;
+	 padding-top: 41px;
+	.hello {
+		height: 455px;
+		width: 47%;
+		margin:0 auto;
+		.hello-img-title{
+			margin:0 auto;
+			text-align: -webkit-center;
+			span{
+				font-family:Verdana;
+				font-weight: 600;
+				display: block;
+				font-size:27px;
+				color:#293e53;
+				letter-spacing: 3px;
+				margin-left: 3%;
+				margin-top: 28px;
+			}
+			p{
+				font-family: Tw Cen MT;
+				font-size: 25px;
+				color:#293e53;
+				margin-top: 32px;
+			}
+		}
+		
 	}
 }

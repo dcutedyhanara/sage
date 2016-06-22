@@ -1,4 +1,34 @@
 .con-header{
 	background-color: #f56f6c;
-	height:600px;
+	height:800px;
+	padding: 23px 0px 30px 40px;
+	.mebanner{
+		.dayanlogo{
+			font-family: Tw Cen MT Condensed;
+			display: inline-block;
+			color:white;
+		    font-size: 30px;
+		    font-weight: 600;
+		    letter-spacing: 4px;
+
+		    .logo-text{
+		    	margin-left: 15px;
+    			margin-top: 15px;
+		    }
+		}
+		.banner-title {
+			height:600px;
+			margin:0 auto;
+			color:white;
+			width: 562px;
+			.web-intro {
+
+				.introduction{
+					font-family: Vladimir Script;
+					font-size: 107px ;
+					color:#293e53;
+				}
+			}
+		}
+	}
 }

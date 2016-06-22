@@ -56,7 +56,7 @@
 	background-color: #f7f7f9;
 	 padding-top: 41px;
 	.hello {
-		height: 455px;
+		height: 45vw;
 		width: 47%;
 		margin:0 auto;
 		.hello-img-title{
@@ -81,4 +81,143 @@
 		}
 		
 	}
+	.myexpertise {
+		height: 45vw;
+		span{
+			font-family:Verdana;
+			font-weight: 600;
+			display: block;
+			font-size:3vw;
+			color:#f56f6c;
+			letter-spacing: 3px;
+			text-align: -webkit-center;
+		}
+		
+		.row{
+			width:100%;
+			.skillsdesc{
+				padding-left: 65px;
+
+				.expertlogo{
+					text-align: -webkit-center;
+					margin-bottom: 5px;
+				}
+				.expertdesc{
+					font-size:24px;
+					font-family: Tw Cen MT;
+				}
+			}
+			.skillsimage{
+				/*padding-right:40px!important;*/
+				margin-top: 37px;
+				.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+					display: block;
+					height: auto;
+					/*width: 100%; // Add this*/
+				}
+				a.left.carousel-control{
+					background-image:none;
+				}
+				.carousel-control.right{
+					background-image:none;
+				}
+				.carousel-control.left{
+					background-image:none;
+				}
+			}
+		}
+		/*.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+		    display: block;
+		    height: auto;
+		    line-height: 1;
+		    margin: 0 auto;
+		    max-width: 100%;
+		}*/
+		
+	} /*end of myexpertise*/
+	.onthejobtraining{
+		.row{
+			width: 100%;
+		}
+		.titlejob{
+			text-align: -webkit-center;
+		    margin-bottom: 32px;
+			span{
+				font-size: 54px;
+				font-family: Tw Cen MT Condensed;
+				color:#293e53;
+				font-weight: 600;
+			}
+		}
+		.con-convergys{
+		   border-right: 5px solid #f56f6c;
+		   padding: 0px;
+		   .convergys{
+	   		    margin-top: 75px;
+		   		img{
+		   			width: 100%;
+		   		}
+		   }
+		}
+		.con-convergys-expe{
+		    margin-top: 67px;	
+		    font-family: Tw Cen MT;
+		    padding: 0px 98px;
+			.experiencecvg1{
+				color: #f56f6c;
+				font-size: 24px;
+				text-align: left;
+			    margin-bottom: 28px;
+			}
+			.experiencecvg2{
+				color: #293e53;
+				font-size: 24px;
+				text-align: left;
+			}
+		}
+		.con-voxpori{
+		   padding: 0px;
+
+		   .voxpori{
+	   		    margin-top: 115px;
+	   		    min-width: 102%;
+		   		img{
+		   			width: 100%;
+		   		}
+		   }
+		}
+		.con-voxpori-expe{
+			border-right: 5px solid #f56f6c;
+		    font-family: Tw Cen MT;
+		    padding:0 0 0 64px;
+		    height: 551px;
+			.experiencevoxpori1{
+		    	margin-top: 115px;	
+				color: #f56f6c;
+				font-size: 24px;
+				text-align: left;
+			    margin-bottom: 28px;
+			}
+			.experiencevoxpori2{
+				color: #293e53;
+				font-size: 24px;
+				text-align: left;
+			}
+		}
+	} /*end of onthejobtraining*/
+	.myworks{
+	    margin-top: 95px;
+		.titlework{
+			text-align: -webkit-center;
+		    margin-bottom: 32px;
+			span{
+				font-size: 54px;
+				font-family: Tw Cen MT Condensed;
+				color:#293e53;
+				font-weight: 600;
+				letter-spacing: 7px;
+				word-spacing: 10px;
+			}
+		}
+	} /*end of myworks*/
 }

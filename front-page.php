@@ -106,7 +106,7 @@
 		<div class="row">
 			<div class="col-md-6 con-convergys">
 				<div class="convergys">
-					<?php $Convergys = wp_get_attachment_image_src(28, 'full'); ?>
+					<?php $Convergys = wp_get_attachment_image_src(32, 'full'); ?>
 					<img src="<?= $Convergys[0] ?>" width="<?php echo $Convergys[1]; ?>" height="<?php echo $Convergys[2]; ?> alt="Convergys" class="img-responsive">
 				</div>
 			</div>
@@ -143,7 +143,7 @@
 			</div>
 			<div class="col-md-6 con-voxpori">
 				<div class="voxpori">
-					<?php $voxpori = wp_get_attachment_image_src(29, 'full'); ?>
+					<?php $voxpori = wp_get_attachment_image_src(30, 'full'); ?>
 					<img src="<?= $voxpori[0] ?>" width="<?php echo $voxpori[1]; ?>" height="<?php echo $voxpori[2]; ?> alt="Voxpori" class="img-responsive">
 				</div>
 			</div>
@@ -152,40 +152,71 @@
 	<div class="myworks">
 		<div class="titlework"><span>My Works</span></div>
 		<div class="ourworks-con">
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-				  <!-- Indicators -->
-				  <ol class="carousel-indicators">
-				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				  </ol>
-
-				  <!-- Wrapper for slides -->
-				  <div class="carousel-inner" role="listbox">
-				    <div class="item active">
-				      <img src="..." alt="...">
-				      <div class="carousel-caption">
-				        ...
-				      </div>
-				    </div>
-				    <div class="item">
-				      <img src="..." alt="...">
-				      <div class="carousel-caption">
-				        ...
-				      </div>
-				    </div>
-				    ...
-				  </div>
-
-				  <!-- Controls -->
-				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				    <span class="sr-only">Previous</span>
-				  </a>
-				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				    <span class="sr-only">Next</span>
-				  </a>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="captel-con"></div>
+				</div>
+				<div class="col-md-8">
+					<div class="captel-con-color"></div>
+					<div class="captel-con-desc">
+						<?php $captelweb = wp_get_attachment_image_src(33, 'full'); ?>
+						<img src="<?= $captelweb[0] ?>" width="<?php echo $captelweb[1]; ?>" height="<?php echo $captelweb[2]; ?> alt="Captel" class="img-responsive pull-left">
+						<div class="capteldesc pull-left">
+							<p>CAPTEL</p>
+							<a href="" class="">Visit</a>
+							<div><span>CAPTEL</span> is a leading national fundraising and membership development company founded in 1997 in Washington, DC. We have achieved 18 years of reliably significant financial results for our clients by focusing on effective and well-delivered personal communications with client members and donors.</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<div class="voxporigroup-con-color"></div>
+					<div class="voxporigroup-con-desc">
+						<?php $voxporigroupweb = wp_get_attachment_image_src(35, 'full'); ?>
+						<img src="<?= $voxporigroupweb[0] ?>" width="<?php echo $voxporigroupweb[1]; ?>" height="<?php echo $voxporigroupweb[2]; ?> alt="VOXPORIGROUP" class="img-responsive pull-right">
+						<div class="voxporigroupdesc pull-left">
+							<p>VOXPORI GROUP</p>
+							<a href="" class="">Visit</a>
+							<div><span>Tourism</span>  and Themed Entertainment · Real Estate Development · Retirement Communities <br> 
+Venture Capital · Technology Security · Cloud Computing <br>
+ERP · Software Development · Web Applications <br>Mergers & Acquisitions · Business Valuation<br> International Business Foundation · Audit · Tax<br> Information Technology · Integrated Business Planning</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="voxporigroup-con"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8">
+					<div class="voxpori-con">
+						<?php $captelweb = wp_get_attachment_image_src(34, 'full'); ?>
+						<img src="<?= $captelweb[0] ?>" width="<?php echo $captelweb[1]; ?>" height="<?php echo $captelweb[2]; ?> alt="Captel" class="img-responsive pull-left">
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="voxpori-con-desc">
+						<p>VOXPORI</p>
+						<a href="" class="">Visit</a>
+						<div><span>Voxpori</span> is a synthesis of three (3) languages: 
+Vox = Voice; Po = Power; and Ri = King; 
+all together represents Voice of the Powerful King.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <br><br><br>
+	<div class="hireme">
+		<div class="logoandtitle">
+			<?php $hiremelogo = wp_get_attachment_image_src(36, 'full'); ?>
+			<img src="<?= $hiremelogo[0] ?>" width="<?php echo $hiremelogo[1]; ?>" height="<?php echo $hiremelogo[2]; ?> alt="Dayanara" class="img-responsive">
+			<p>Hire me</p>
+			<span class="feelinofhiringme">Feeling of hiring me? then get in touch. <br>I am currently available in freelance contracts.</span>
+			<div class="hiremeform">
+				<?php echo do_shortcode( '[contact-form-7 id="9" title="Contact form 1"]' ); ?>
 			</div>
 		</div>
 	</div>

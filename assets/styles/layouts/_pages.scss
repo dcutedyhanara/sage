@@ -1,0 +1,438 @@
+.con-header{
+	background-color: #f56f6c;
+	height:730px;
+	padding: 23px 0px 30px 40px;
+	width: 100%;
+	.mebanner{
+		width: 100%;
+		.dayanlogo{
+			font-family: Tw Cen MT Condensed;
+			display: inline-block;
+			color:white;
+		    font-size: 30px;
+		    font-weight: 600;
+		    letter-spacing: 4px;
+
+		    .logo-text{
+		    	margin-left: 15px;
+    			margin-top: 15px;
+		    }
+		}
+		.banner-title {
+			height:600px;
+			color:#f17d7b;
+			margin:0 auto;
+			width: 43%;
+			background-image:url("data:image/svg+xml;utf8,\
+			<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>\
+			<text x='38' y='475' font-size='650' color='white' font-family='Verdana' fill='#f17d7b'>D</text>\
+			</svg>");
+			.web-intro {
+				padding-top: 102px;
+				.introduction{
+					font-family: Vladimir Script;
+					font-size: 107px;
+					color:#293e53;
+				}
+				.introskills {
+					font-family:Verdana;
+					color:white;
+					font-size: 27px;
+					margin:0 auto;
+
+					.asterisk {
+						border-radius: 50%;
+						display:inline-block;
+						height: 20px;
+						background-color:#293e53;
+					}
+				}
+			}
+		}
+	}
+
+}
+.body-content{
+	background-color: #f7f7f9;
+	 padding-top: 41px;
+	.hello {
+		height: 45vw;
+		width: 47%;
+		margin:0 auto;
+		.hello-img-title{
+			margin:0 auto;
+			text-align: -webkit-center;
+			span{
+				font-family:Verdana;
+				font-weight: 600;
+				display: block;
+				font-size:27px;
+				color:#293e53;
+				letter-spacing: 3px;
+				margin-left: 3%;
+				margin-top: 28px;
+			}
+			p{
+				font-family: Tw Cen MT;
+				font-size: 25px;
+				color:#293e53;
+				margin-top: 32px;
+			}
+		}
+		
+	}
+	.myexpertise {
+		height: 45vw;
+		span{
+			font-family: Tw Cen MT Condensed;
+			font-size: 54px;
+			font-weight: 600;
+			display: block;
+			color:#f56f6c;
+			letter-spacing: 3px;
+			text-align: -webkit-center;
+		}
+		
+		.row{
+			width:100%;
+			.skillsdesc{
+				padding-left: 65px;
+
+				.expertlogo{
+					text-align: -webkit-center;
+					margin-bottom: 5px;
+				}
+				.expertdesc{
+					font-size:24px;
+					font-family: Tw Cen MT;
+				}
+			}
+			.skillsimage{
+				/*padding-right:40px!important;*/
+				margin-top: 37px;
+				.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+					display: block;
+					height: auto;
+					/*width: 100%; // Add this*/
+				}
+				a.left.carousel-control{
+					background-image:none;
+				}
+				.carousel-control.right{
+					background-image:none;
+				}
+				.carousel-control.left{
+					background-image:none;
+				}
+			}
+		}
+		/*.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+		    display: block;
+		    height: auto;
+		    line-height: 1;
+		    margin: 0 auto;
+		    max-width: 100%;
+		}*/
+		
+	} /*end of myexpertise*/
+	.onthejobtraining{
+		.row{
+			width: 100%;
+		}
+		.titlejob{
+			text-align: -webkit-center;
+		    margin-bottom: 32px;
+			span{
+				font-size: 54px;
+				font-family: Tw Cen MT Condensed;
+				color:#f56f6c;
+				font-weight: 600;
+			}
+		}
+		.con-convergys{
+		   border-right: 5px solid #f56f6c;
+		   padding: 0px;
+		   .convergys{
+	   		    margin-top: 75px;
+		   		img{
+		   			width: 100%;
+		   		}
+		   }
+		}
+		.con-convergys-expe{
+		    margin-top: 67px;	
+		    font-family: Tw Cen MT;
+		    padding: 0px 98px;
+			.experiencecvg1{
+				color: #f56f6c;
+				font-size: 24px;
+				text-align: left;
+			    margin-bottom: 28px;
+			}
+			.experiencecvg2{
+				color: #293e53;
+				font-size: 24px;
+				text-align: left;
+			}
+		}
+		.con-voxpori{
+		   padding: 0px;
+
+		   .voxpori{
+	   		    margin-top: 115px;
+	   		    min-width: 102%;
+		   		img{
+		   			width: 100%;
+		   		}
+		   }
+		}
+		.con-voxpori-expe{
+			border-right: 5px solid #f56f6c;
+		    font-family: Tw Cen MT;
+		    padding:0 0 0 64px;
+		    height: 551px;
+			.experiencevoxpori1{
+		    	margin-top: 115px;	
+				color: #f56f6c;
+				font-size: 24px;
+				text-align: left;
+			    margin-bottom: 28px;
+			}
+			.experiencevoxpori2{
+				color: #293e53;
+				font-size: 24px;
+				text-align: left;
+			}
+		}
+	} /*end of onthejobtraining*/
+	.myworks{
+	    margin-top: 95px;
+		.titlework{
+			text-align: -webkit-center;
+		    margin-bottom: 32px;
+			span{
+				font-size: 54px;
+				font-family: Tw Cen MT Condensed;
+				color:#f56f6c;
+				font-weight: 600;
+				letter-spacing: 7px;
+				word-spacing: 10px;
+			}
+		}
+		.ourworks-con{
+			.row{
+				width:100%;
+				margin: 0px!important;				
+				.col-md-4{
+					padding:0px;
+					.captel-con{
+						background-color: #293e53;
+						height:456px;
+						position: relative;
+					}
+					.voxporigroup-con{
+						background-color: #293e53;
+						height:456px;
+						position: relative;
+						border-left: 120px solid white;
+					}
+					.voxpori-con-desc{
+						padding: 7vw 2vw;
+						p{
+							font-family: Tw Cen MT Condensed;
+							font-size: 54px;
+							letter-spacing: 6px;
+							font-weight: 600;
+							margin-bottom: 0;
+							color: #293e53;
+						}
+						a{
+							background-color: #617c97;
+							padding: 5px 60px;
+							font-family: Tw Cen MT;
+							font-size: 25px;
+							color: #fff;
+							border-radius: 10px;
+						}						
+				    	a:hover, a:focus{
+			    		    background-color: #293e53;
+			    		    text-decoration: none;
+				    	}
+						div{
+							font-size: 21px;
+						    font-family: Tw Cen MT;
+						    margin-top: 23px;
+						    span {
+							    text-decoration: underline;
+							}
+						}
+					}
+				}
+				.col-md-8{
+					padding:0px;
+
+					.captel-con-color{
+						background-color:white;
+						height:456px;
+						position: relative;
+					}
+					.captel-con-desc{
+						position: absolute;
+						margin: auto;
+						top: 52px;
+					    left: -307px;
+					    bottom: 0;
+					    z-index: 999;
+					    .capteldesc{
+					    	padding: 0 30px 0 45px;
+					    	p{
+								font-family: Tw Cen MT Condensed;
+								font-size: 54px;
+								letter-spacing: 6px;
+								font-weight: 600;
+								margin-bottom: 0px;
+					    	}
+					    	a{
+								background-color: #617c97;
+								padding: 5px 60px;
+								font-family: Tw Cen MT;
+								font-size: 25px;
+								color: white;
+								border-radius: 10px;
+					    	}
+					    	a:hover, a:focus{
+				    		    background-color: #293e53;
+				    		    text-decoration: none;
+					    	}
+					    	div{
+								width: 44vw;
+								font-size: 25px;
+								font-family: Tw Cen MT;
+								margin-top: 23px;
+								text-indent: 96px;
+								span {
+								    text-decoration: underline;
+								}
+					    	}
+					    }
+					}
+					.voxporigroup-con-color{
+						background-color:white;
+						height:456px;
+						position: relative;
+					}
+					.voxporigroup-con-desc{
+						position: absolute;
+						margin: auto;
+						top: 52px;
+					    right: -440px;
+					    left: 0;
+					    bottom: 0;
+					    z-index: 999;
+					    .voxporigroupdesc{
+					    	padding: 0 0 0 24px;
+					    	p{
+								font-family: Tw Cen MT Condensed;
+								font-size: 54px;
+								letter-spacing: 6px;
+								font-weight: 600;
+								margin-bottom: 0px;
+					    	}
+					    	a{
+								background-color: #617c97;
+								padding: 5px 60px;
+								font-family: Tw Cen MT;
+								font-size: 25px;
+								color: white;
+								border-radius: 10px;
+					    	}
+					    	a:hover, a:focus{
+				    		    background-color: #293e53;
+				    		    text-decoration: none;
+					    	}
+					    	div{
+								width: 55vw;
+								font-size: 21px;
+								font-family: Tw Cen MT;
+								margin-top: 23px;
+								text-align: center;
+								span {
+								    text-decoration: underline;
+								}
+					    	}
+					    }
+					}
+					.voxpori-con{
+						height: 454px;
+						background-color: #293e53;
+						padding: 50px 15vw 0px;
+					}
+					
+				}
+				
+				
+			}
+		}
+	} /*end of myworks*/
+	.hireme{
+		background-color: #f56f6c;
+		padding-top: 20px;
+		.logoandtitle{
+			text-align: -webkit-center;
+			p{
+				font-size: 44px;
+			    color: white;
+			    font-family: Tw Cen MT;
+			    letter-spacing: 3px;
+			}
+			span.feelinofhiringme{
+				font-size: 31px;
+			    color: #293e53;
+			    font-family: Tw Cen MT;
+			    display: inline-block;
+			    width: 100%;
+			    background-color: #f47f7c;
+			    padding: 30px 0px;
+
+			}
+			.hiremeform{
+				width: 63%;
+				input{
+					margin-bottom: 15px;
+   					padding: 24px 12px;
+   					background-color: #293e53;
+   					border-color: #293e53;
+   					color: white;
+					font-family: Tw Cen MT;
+
+				}
+				::placeholder{
+					color:white;
+					font-family: Tw Cen MT;
+					font-size: 24px!important;
+				}
+				textarea{
+					background-color: #293e53;
+					border-color: #293e53;
+   					color: white;
+					font-family: Tw Cen MT;
+   					
+
+				}
+				input.wpcf7-form-control.wpcf7-submit{
+					background-color: white;
+				    border-color: white;
+				    color: #293e53;
+				    width: 100%;
+				    font-size: 71px;
+				    font-family: Tw Cen MT;
+				    border-radius: 13px;
+				    padding: 55px 20px;
+				}
+				.col-md-3{
+					padding: 0px;
+				}
+			}
+		}
+	}
+}

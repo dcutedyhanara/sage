@@ -28,6 +28,7 @@
     'home': {
       init: function() {
         // JavaScript to be fired on the home page
+        // $('.parallax').parallax();
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS
